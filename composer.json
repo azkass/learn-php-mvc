@@ -1,0 +1,27 @@
+{
+    "name": "azkass/learn-php-mvc",
+    "description": "Lear PHP MVC",
+    "type": "project",
+    "authors": [
+        {
+            "name": "azkass",
+            "email": "222111939@stis.ac.id"
+        }
+    ],
+    "require": {
+        "php" : ">=8.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "11.4.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "azkass\\learn-php-mvc\\": "app"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "azkass\\learn-php-mvc\\": "tests"
+        }
+    }
+}
