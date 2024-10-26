@@ -14,7 +14,7 @@ class ComposerStaticInita93a470ace8f057b21477903ae2b2e21
     public static $prefixLengthsPsr4 = array (
         'a' => 
         array (
-            'azkass\\learn-php-mvc\\' => 21,
+            'azkass\\learn\\php\\mvc\\' => 21,
         ),
         'P' => 
         array (
@@ -27,7 +27,7 @@ class ComposerStaticInita93a470ace8f057b21477903ae2b2e21
     );
 
     public static $prefixDirsPsr4 = array (
-        'azkass\\learn-php-mvc\\' => 
+        'azkass\\learn\\php\\mvc\\' => 
         array (
             0 => __DIR__ . '/../..' . '/app',
             1 => __DIR__ . '/../..' . '/tests',
